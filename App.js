@@ -13,10 +13,10 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home} />
-        <Stack.Screen name="LiveTV" component={LiveTV} />
-        <Stack.Screen name="Downloads" component={Downloads} />
-        <Stack.Screen name="Search" component={Search} />
+        <Stack.Screen name="Home" component={Home} options={{ headerShown: false}} />
+        <Stack.Screen name="LiveTV" component={LiveTV} options={{ headerShown: false}} />
+        <Stack.Screen name="Downloads" component={Downloads} options={{ headerShown: false}} />
+        <Stack.Screen name="Search" component={Search} options={{ headerShown: false}} />
       </Stack.Navigator>
       <StatusBar style="auto" />
     </NavigationContainer>
