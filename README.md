@@ -1,6 +1,6 @@
 # **Clone do Amazon Prime Video**
 Descrição
-Este projeto consiste em um clone do Amazon Prime Video, uma plataforma de streaming de vídeo. Ele permite aos usuários assistir a uma variedade de filmes e programas de TV em seus dispositivos móveis. Este clone replica a interface do usuário e algumas funcionalidades principais do Amazon Prime Video.
+Este projeto consiste em um clone do Amazon Prime Video, uma plataforma de streaming de vídeo. Ele permite aos usuários assistir a uma variedade de filmes e programas de TV em seus dispositivos móveis. Este clone replica a interface do usuário do Amazon Prime Video.
 
 ## **Tecnologias Utilizadas**
 - React Native
@@ -8,8 +8,6 @@ Este projeto consiste em um clone do Amazon Prime Video, uma plataforma de strea
 
 ## **Funcionalidades Principais**
 - Navegação entre telas para visualizar diferentes categorias de vídeos.
-- Busca por títulos de filmes e programas de TV.
-- Adição de vídeos à lista de favoritos.
 
 ## **Como Executar**
 - Certifique-se de ter o Node.js instalado em seu sistema.
