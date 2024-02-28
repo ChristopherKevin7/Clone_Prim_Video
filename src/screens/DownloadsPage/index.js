@@ -1,20 +1,26 @@
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import { useNavigation } from '@react-navigation/native';
 import BottomTabBar from '../../components/BottomTabBar';
-import { ScrollView, View, Text } from 'react-native';
+import { ScrollView, View, Text, Button, TouchableOpacity } from 'react-native';
 import styles from '../Styles/Styles';
 import Headerpages from '../../components/Header';
 
+
 export const Downloads = () => {
+
+    const navigation = useNavigation();
+
     return (
-        <View style={ styles.container }>
+        <View style={styles.container}>
             <ScrollView>
                 <Headerpages />
                 <View style={styles.pagedownload}>
-                    <Text style={styles.textdownload} >Nenhum video baixado</Text>
+                    <Text style={styles.textdownload} >No videos downloaded</Text>
+                    <TouchableOpacity style={styles.buttonFind} onPress={() => navigation.navigate('Home')}>
+                        <Text style={styles.buttonText}>Find videos to download</Text>
+                    </TouchableOpacity>
                 </View>
             </ScrollView>
-            <BottomTabBar/>
+            <BottomTabBar />
         </View>
     )
 }

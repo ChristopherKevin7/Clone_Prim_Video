@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { FlatList, Image, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import BottomTabBar from '../../components/BottomTabBar';
 
 import PrimeVideoLogo from '../../assets/prime_video.png';

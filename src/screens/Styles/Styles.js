@@ -153,9 +153,10 @@ const styles = StyleSheet.create({
     },
 
     userIcon: {
-        width: 50,
-        height: 50,
-        marginLeft: 15
+        width: 35,
+        height: 35,
+        marginLeft: 15,
+        margin: 10
     },
 
     rightHeader: {
@@ -182,6 +183,28 @@ const styles = StyleSheet.create({
         fontWeight: "700",
         color: "#FFFFFF",
     },
+
+    buttonFind: {
+        marginTop: 20, // Espaçamento superior
+        backgroundColor: '#33363D', // Cor de fundo do botão
+        paddingVertical: 15, // Espaçamento vertical interno
+        paddingHorizontal: 35, // Espaçamento horizontal interno
+        borderRadius: 10,
+    },
+
+    buttonText: {
+        color: '#FFFFFF',
+        fontSize: 18,
+        fontWeight: '600'
+    },
+
+    searchBar: {
+        flex: 1, 
+        borderRadius: 5,
+        padding: 15,
+        backgroundColor: "#FFFFFF",
+        marginHorizontal: 25
+    }
 });
 
 export default styles;
