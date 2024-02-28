@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     pages: {
         width: "100%",
         flexDirection: "row",
-        justifyContent: "space-between",
+        justifyContent: 'space-evenly',
         marginTop: 12,
         marginBottom: 10,
         paddingHorizontal: 20,

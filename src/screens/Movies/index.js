@@ -2,10 +2,7 @@ import React from 'react';
 import { FlatList, Image, ScrollView, Text, TouchableOpacity, View } from 'react-native';
 import BottomTabBar from '../../components/BottomTabBar';
 import HeaderBar from '../../components/HeaderBar';
-
-import PrimeVideoLogo from '../../assets/prime_video.png';
-import AmazonLogo from '../../assets/amazon_logo.png';
-
+import Headerpages from '../../components/Header'
 import MovieTheWhell from '../../assets/movies/the_wheel_of_time.png';
 import { MOVIESWATCHING } from '../../utils/moviesWatching';
 import { MOVIESCRIME } from '../../utils/moviesCrimes';
@@ -15,15 +12,12 @@ import { ANIMES } from '../../utils/animes';
 import styles from '../Styles/Styles';
 
 
-export const Home = () => {
+export const Movies = () => {
     return (
         <View style={styles.container}>
             <ScrollView showsVerticalScrollIndicator={false} style={styles.contentMovies}>
-                <View style={styles.headerHome}>
-                    <Image style={styles.primeLogoImg} source={PrimeVideoLogo} />
-                    <Image style={styles.amazonLogoImg} source={AmazonLogo} />
-                </View>
 
+                <Headerpages />
                 <HeaderBar />
 
                 <TouchableOpacity style={styles.movieImageThumbnail}>
